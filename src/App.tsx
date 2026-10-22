@@ -141,7 +141,7 @@ export function App() {
           {/* Step 5: Couple Presentation */}
           <div className="space-y-4 py-1 animate-entrance delay-step-5">
             <div>
-              <h3 className="gold-text font-script text-6xl sm:text-7xl leading-[1.15] font-bold tracking-wide">
+              <h3 className="couple-name font-script text-6xl sm:text-7xl leading-[1.15] font-bold tracking-wide">
                 {weddingContent.bride.name}
               </h3>
               <p className="font-serifSc text-xs text-[#4a2a30] tracking-wider mt-1">
@@ -152,7 +152,7 @@ export function App() {
             <p className="font-script text-4xl text-[#9a6b14]">&amp;</p>
 
             <div>
-              <h3 className="gold-text font-script text-6xl sm:text-7xl leading-[1.15] font-bold tracking-wide">
+              <h3 className="couple-name font-script text-6xl sm:text-7xl leading-[1.15] font-bold tracking-wide">
                 {weddingContent.groom.name}
               </h3>
               <p className="font-serifSc text-xs text-[#4a2a30] tracking-wider mt-1">

@@ -14,7 +14,7 @@ const resolveMapsUrl = (event: WeddingEvent): string => {
 };
 
 const pillClasses =
-  'block w-full rounded-full border border-gold/60 bg-[#f1e8d9] px-5 py-3 text-center text-[11px] sm:text-xs font-serifSc uppercase tracking-[0.16em] text-[#7a5614] shadow-sm hover:bg-[#ebdfc9] active:scale-[0.98] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/70';
+  'block w-full rounded-full border border-[#d4af37] bg-maroon-800 px-5 py-3 text-center text-[11px] sm:text-xs font-serifSc uppercase tracking-[0.16em] text-[#f7e7a9] shadow-md hover:bg-maroon-700 active:scale-[0.98] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/70';
 
 export const EventCard: React.FC<EventCardProps> = ({ event }) => {
   const [flipped, setFlipped] = useState(false);
