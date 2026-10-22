@@ -22,7 +22,7 @@ export const EventsSection: React.FC<EventsSectionProps> = ({ events, heading = 
         <div className="ornament ornament-light mt-3" aria-hidden="true"><span /><i>✦</i><span /></div>
       </div>
 
-      <div className="mt-8 flex flex-col items-center gap-10">
+      <div className="mt-6 flex flex-col items-center gap-7">
         {events.map((event) => (
           <EventCard key={event.id} event={event} />
         ))}

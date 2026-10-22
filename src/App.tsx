@@ -101,7 +101,7 @@ export function App() {
         className="page-settle relative z-20 w-full max-w-2xl min-h-screen px-4 py-8 sm:py-12 flex flex-col items-center"
       >
         {/* Main Invitation Card */}
-        <article className="paper w-full max-w-md rounded-[28px] px-6 py-10 sm:px-9 sm:py-12 text-center space-y-6 animate-entrance">
+        <article className="paper w-full max-w-md rounded-[28px] px-5 py-8 sm:px-9 sm:py-12 text-center space-y-4 sm:space-y-6 animate-entrance">
           <span className="paper-corner tl" aria-hidden="true" />
           <span className="paper-corner tr" aria-hidden="true" />
           <span className="paper-corner bl" aria-hidden="true" />

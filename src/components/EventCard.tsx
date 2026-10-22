@@ -14,7 +14,7 @@ const resolveMapsUrl = (event: WeddingEvent): string => {
 };
 
 const pillClasses =
-  'block w-full rounded-full border border-[#d4af37] bg-maroon-800 px-5 py-3 text-center text-[11px] sm:text-xs font-serifSc uppercase tracking-[0.16em] text-[#f7e7a9] shadow-md hover:bg-maroon-700 active:scale-[0.98] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/70';
+  'block w-full rounded-full border border-[#d4af37] bg-maroon-800 px-4 py-2.5 text-center text-[11px] sm:text-xs font-serifSc uppercase tracking-[0.16em] text-[#f7e7a9] shadow-md hover:bg-maroon-700 active:scale-[0.98] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/70';
 
 export const EventCard: React.FC<EventCardProps> = ({ event }) => {
   const [flipped, setFlipped] = useState(false);
@@ -78,7 +78,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
           <div className={faceBase} inert={flipped} aria-hidden={flipped}>
             <div
               ref={mediaRef}
-              className="relative aspect-[9/16] w-full overflow-hidden bg-gradient-to-b from-maroon-900 via-maroon-800 to-[#2a050b]"
+              className="relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-b from-maroon-900 via-maroon-800 to-[#2a050b]"
             >
               {!videoFailed ? (
                 <video
@@ -102,7 +102,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
               )}
 
               {/* Gold plaque with the event name, date and time */}
-              <div className="absolute left-1/2 top-[8%] w-[80%] -translate-x-1/2 rounded-md border-2 border-[#8a6a2f] bg-gradient-to-br from-[#ecd9a6] via-[#d8b979] to-[#b98f4b] px-3 py-3 text-center shadow-xl">
+              <div className="absolute left-1/2 top-[10%] w-[80%] -translate-x-1/2 rounded-md border-2 border-[#8a6a2f] bg-gradient-to-br from-[#ecd9a6] via-[#d8b979] to-[#b98f4b] px-3 py-3 text-center shadow-xl">
                 <p className="font-script text-2xl sm:text-[1.7rem] font-semibold leading-tight text-maroon-900">
                   {event.name}
                 </p>
@@ -111,7 +111,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
               </div>
             </div>
 
-            <div className="space-y-3 bg-gradient-to-b from-white to-ivory px-6 pb-8 pt-7 text-center">
+            <div className="space-y-2 bg-gradient-to-b from-white to-ivory px-5 pb-5 pt-4 text-center">
               <h3 className="font-script text-3xl font-semibold text-[#7a5614]">{event.name}</h3>
               <p className="font-serifSc text-xs leading-relaxed tracking-[0.14em] text-[#2f1a1e] uppercase sm:text-[13px]">
                 {event.shortDescription}
@@ -133,7 +133,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
                 <p className="font-serifSc text-[11px] tracking-[0.1em] text-[#3a2328] uppercase">{event.address}</p>
               </div>
 
-              <div className="space-y-3 pt-4">
+              <div className="space-y-2 pt-3">
                 <a href={resolveMapsUrl(event)} target="_blank" rel="noopener noreferrer" className={pillClasses}>
                   Click here for the google location
                 </a>
@@ -146,7 +146,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
 
           {/* ---------- BACK (style guide) ---------- */}
           <div className={`${faceBase} rotate-y-180`} inert={!flipped} aria-hidden={!flipped}>
-            <div className="relative min-h-[260px] flex-1 bg-maroon-900">
+            <div className="relative min-h-[200px] flex-1 bg-maroon-900">
               <img
                 src={event.styleGuideImagePath}
                 alt={`${event.name} style guide inspiration`}
@@ -155,7 +155,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
               />
             </div>
 
-            <div className="space-y-3 bg-gradient-to-b from-white to-ivory px-6 pb-8 pt-6 text-center">
+            <div className="space-y-2 bg-gradient-to-b from-white to-ivory px-5 pb-5 pt-4 text-center">
               <p className="font-serifSc text-[10px] tracking-[0.3em] text-maroon-800 uppercase">Wardrobe details</p>
               <h4 className="font-script text-3xl font-semibold text-[#7a5614]">{event.wardrobeTitle}</h4>
               <p className="font-serifSc text-xs leading-relaxed tracking-[0.12em] text-[#2f1a1e] uppercase sm:text-[13px]">
