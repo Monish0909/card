@@ -45,7 +45,7 @@ The repo ships with **placeholders** so the site runs immediately. Replace them 
 | File | What it is | Recommended spec |
 | --- | --- | --- |
 | `videos/envelope-open.mp4` | Optional real envelope clip, plays once after the tap and replaces the built-in animation | Portrait or square, 5-8 s, H.264, no audio, under 3 MB. **Placeholder is an empty file on purpose**: the built-in CSS envelope animation plays instead. |
-| `audio/theme-song.mp3` | Background music (looped, starts on the tap, mute button included) | MP3 96-128 kbps, under 4 MB. **Placeholder is silent.** Use licensed or royalty-free music. |
+| `audio/theme-song.mp3` | Background music (looped, starts on the tap, mute button included) | MP3 96-128 kbps, under 4 MB. **Placeholder is a generated 64 s Indian-classical-style instrumental (tanpura drone + sitar-like melody), royalty-free.** Replace with the couple's chosen licensed song. |
 | `images/ganpati-gold.svg` | Ganpati logo above the mantra | Transparent PNG/SVG, gold |
 | `images/bg-watercolor.svg` | Page background wash | JPG/WebP about 1200x2400, under 300 KB |
 | `videos/event-*.mp4` (4 files) | Looping clip on the front of each event card | **Vertical 9:16**, 720x1280, 6-12 s loop, H.264, no audio, under 3 MB each |
