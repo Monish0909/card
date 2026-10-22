@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgWed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a0d18" />
+      <stop offset="100%" stop-color="#2a050d" />
+    </linearGradient>
+    <linearGradient id="royalGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4cc" />
+      <stop offset="40%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#a16207" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" rx="28" fill="url(#bgWed)" />
+  <rect x="24" y="24" width="752" height="952" rx="20" fill="none" stroke="url(#royalGold)" stroke-width="2" opacity="0.7" />
+  <circle cx="400" cy="340" r="140" fill="#601020" stroke="url(#royalGold)" stroke-width="3" />
+  <!-- Royal Wedding Turban / Kalgi Motif -->
+  <g transform="translate(400, 340)" stroke="url(#royalGold)" stroke-width="2.5" fill="none">
+    <path d="M -70 40 C -40 -30 40 -30 70 40 C 40 60 -40 60 -70 40 Z" fill="#7a1628" />
+    <path d="M 0 -20 C 0 -90 25 -100 0 -130 C -25 -100 0 -90 0 -20 Z" fill="url(#royalGold)" />
+    <circle cx="0" cy="-20" r="14" fill="url(#royalGold)" />
+  </g>
+  <text x="400" y="560" font-family="'Marcellus SC', serif" font-size="28" letter-spacing="4" fill="url(#royalGold)" text-anchor="middle">THE WEDDING CEREMONY</text>
+  <text x="400" y="610" font-family="'Dancing Script', cursive" font-size="34" fill="#fde68a" text-anchor="middle">Traditional Elegance &amp; Heritage Silks</text>
+  <text x="400" y="680" font-family="sans-serif" font-size="18" fill="#fecdd3" text-anchor="middle">Gentlemen: Regal Sherwanis with Royal Safas</text>
+  <text x="400" y="720" font-family="sans-serif" font-size="18" fill="#fecdd3" text-anchor="middle">Ladies: Crimson, Blush or Gold Zardozi Lehengas</text>
+  <g transform="translate(250, 780)">
+    <circle cx="40" cy="40" r="28" fill="#881337" stroke="#fda4af" stroke-width="2"/>
+    <circle cx="120" cy="40" r="28" fill="#d4af37" stroke="#fff" stroke-width="2"/>
+    <circle cx="200" cy="40" r="28" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+    <circle cx="280" cy="40" r="28" fill="#be123c" stroke="#fb7185" stroke-width="2"/>
+  </g>
+</svg>

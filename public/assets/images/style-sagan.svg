@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSagan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b2e" />
+      <stop offset="100%" stop-color="#0c0a17" />
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcedb4" />
+      <stop offset="100%" stop-color="#be9336" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" rx="28" fill="url(#bgSagan)" />
+  <rect x="24" y="24" width="752" height="952" rx="20" fill="none" stroke="url(#goldAcc)" stroke-width="1.5" opacity="0.6" />
+  <circle cx="400" cy="340" r="140" fill="#29243d" stroke="url(#goldAcc)" stroke-width="2" />
+  <!-- Tuxedo / Indo-Western Silhouette Symbol -->
+  <path d="M 330 260 L 470 260 L 440 440 L 360 440 Z" fill="#141120" stroke="url(#goldAcc)" stroke-width="3" />
+  <polygon points="400,290 385,350 400,340 415,350" fill="url(#goldAcc)" />
+  <text x="400" y="560" font-family="'Marcellus SC', serif" font-size="28" letter-spacing="4" fill="url(#goldAcc)" text-anchor="middle">SAGAN &amp; COCKTAIL</text>
+  <text x="400" y="610" font-family="'Dancing Script', cursive" font-size="34" fill="#ffffff" text-anchor="middle">Style Guide: Black Tie &amp; Indo-Western</text>
+  <text x="400" y="680" font-family="sans-serif" font-size="18" fill="#d1d5db" text-anchor="middle">Gents: Royal Bandhgalas / Tuxedos</text>
+  <text x="400" y="720" font-family="sans-serif" font-size="18" fill="#d1d5db" text-anchor="middle">Ladies: Metallic Gowns / Pre-draped Sarees</text>
+  <g transform="translate(250, 780)">
+    <circle cx="40" cy="40" r="28" fill="#111827" stroke="#9ca3af" stroke-width="2"/>
+    <circle cx="120" cy="40" r="28" fill="#d4af37" stroke="#fff" stroke-width="2"/>
+    <circle cx="200" cy="40" r="28" fill="#3b0764" stroke="#e9d5ff" stroke-width="2"/>
+    <circle cx="280" cy="40" r="28" fill="#475569" stroke="#cbd5e1" stroke-width="2"/>
+  </g>
+</svg>

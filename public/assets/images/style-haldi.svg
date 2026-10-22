@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHaldi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db" />
+      <stop offset="100%" stop-color="#fae277" />
+    </linearGradient>
+    <linearGradient id="yellowAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" rx="28" fill="url(#bgHaldi)" />
+  <rect x="24" y="24" width="752" height="952" rx="20" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.4" />
+  <circle cx="400" cy="340" r="140" fill="#fef08a" stroke="#d97706" stroke-width="3" />
+  <!-- Marigold / Floral Motif -->
+  <g transform="translate(400, 340)">
+    <circle cx="0" cy="0" r="45" fill="#f59e0b" />
+    <circle cx="0" cy="-65" r="28" fill="#fbbf24" opacity="0.8" />
+    <circle cx="0" cy="65" r="28" fill="#fbbf24" opacity="0.8" />
+    <circle cx="-65" cy="0" r="28" fill="#fbbf24" opacity="0.8" />
+    <circle cx="65" cy="0" r="28" fill="#fbbf24" opacity="0.8" />
+    <circle cx="-45" cy="-45" r="25" fill="#f59e0b" opacity="0.8" />
+    <circle cx="45" cy="-45" r="25" fill="#f59e0b" opacity="0.8" />
+    <circle cx="-45" cy="45" r="25" fill="#f59e0b" opacity="0.8" />
+    <circle cx="45" cy="45" r="25" fill="#f59e0b" opacity="0.8" />
+  </g>
+  <text x="400" y="560" font-family="'Marcellus SC', serif" font-size="28" letter-spacing="4" fill="#92400e" text-anchor="middle">HALDI CELEBRATION</text>
+  <text x="400" y="610" font-family="'Dancing Script', cursive" font-size="34" fill="#78350f" text-anchor="middle">Sunshine Shades &amp; Floral Splendor</text>
+  <text x="400" y="680" font-family="sans-serif" font-size="18" fill="#78350f" text-anchor="middle">Gentlemen: Yellow / Mustard Silk Kurtas</text>
+  <text x="400" y="720" font-family="sans-serif" font-size="18" fill="#78350f" text-anchor="middle">Ladies: Marigold Lehengas &amp; Fresh Floral Jewelry</text>
+  <g transform="translate(250, 780)">
+    <circle cx="40" cy="40" r="28" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+    <circle cx="120" cy="40" r="28" fill="#facc15" stroke="#a16207" stroke-width="2"/>
+    <circle cx="200" cy="40" r="28" fill="#f97316" stroke="#9a3412" stroke-width="2"/>
+    <circle cx="280" cy="40" r="28" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  </g>
+</svg>
