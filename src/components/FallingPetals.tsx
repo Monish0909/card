@@ -15,8 +15,8 @@ export const FallingPetals: React.FC = () => {
   // Generate 24 fixed petal configurations once
   const petals = useMemo<PetalConfig[]>(() => {
     const tints = [
-      'bg-[#fbcfe8]', // Soft Rose / Pink-200
-      'bg-[#f472b6]', // Rich Rose / Pink-400
+      'bg-[#f6d58a]', // Marigold
+      'bg-[#fbcfe8]', // Soft rose
       'bg-[#fda4af]', // Rose-300
     ];
 
@@ -49,7 +49,7 @@ export const FallingPetals: React.FC = () => {
       {petals.map((petal) => (
         <div
           key={petal.id}
-          className={`absolute top-0 opacity-30 animate-petal ${petal.tintClass} shadow-sm`}
+          className={`absolute top-0 opacity-40 animate-petal ${petal.tintClass} shadow-sm`}
           style={{
             left: `${petal.left}%`,
             width: `${petal.size}px`,

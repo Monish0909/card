@@ -28,6 +28,7 @@ export default {
       fontFamily: {
         script: ['"Dancing Script"', 'cursive'],
         serifSc: ['"Marcellus SC"', 'serif'],
+        deva: ['"Noto Serif Devanagari"', 'serif'],
         sans: ['system-ui', '-apple-system', 'sans-serif'],
       },
       boxShadow: {
